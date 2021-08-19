@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* Configurações Gerais da Página: */
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+  font-family: sans-serif;
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* Estilização da Página  */
+.titulo {
+  text-decoration: underline;
+  text-shadow: 1px 1px 1px #000;
+  font-family: 'Comfortaa', cursive, sans-serif;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  color: #fff;
+}
+.formulario {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+}
+.legend {
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+  font-weight: bold;
+  color: #fff;
+}
+.dados {
+  border: none;
+  border-radius: 1em;
+  background: rgba(0,0,0,0.3);
+  font-family: 'Comfortaa', cursive, sans-serif;
+  padding: 12px 8px;
+}
+.dados img {
+  margin: 0 42%;
+}
+.label {
+  padding-left: 10px;
+  font-size: 17px;
+  color: white;
+}
+.required:after {
+  content:"*";
+  color: red;
+}
+.input {
+  border: 1px solid rgba(0,0,0,0);
+  width: 263px;
+  margin:6px;
+  padding: 5px;
+  border-radius: 4px;
+}
+.input:hover {
+  border: 1px solid red;
+}
+#name {
+  margin-left: 15px;
+}
+#email {
+  margin-left: 11.5px;
+}
+#password {
+  margin-left: 11px;
+}
+#reppassword {
+  width: 200px;
+}
+.button {
+  border: 1px rgb(215,215,215);
+  text-shadow: 0px 1px 2px #555;
+  border-radius: 4px;
+  margin: 4px -2px;
+  padding: 6px;
+  color: #fff;
+}
+.button:hover {
+  transition: .2s;
+  box-shadow: .5px .5px 2px #555;
+  cursor: pointer;
+  color: #fff;
+}
+#send {
+  background-color: #7f8;
+  margin-left: 10px;
+}
+#clear {
+  background-color: #0af;
+}

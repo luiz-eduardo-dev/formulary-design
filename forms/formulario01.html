@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Trabalhando com Formulários</title>
+    <meta name="description" content="Atividade aula 07 - Formulários">
+    <meta name="keywords" content="Formulário, HTML, CSS, Usuário, Atividade, WEB">
+    <meta name="author" content="Luiz Eduardo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <link rel="shortcut icon" href="img/icon.ico">
+  </head>
+<body>
+  <header>
+    <h1 class="titulo">Preencha com seus dados:</h1>
+  </header>
+  <section class="formulario">
+    <form action="https://qi.edu.br/" method="post" name="form">
+      <fieldset class="dados">
+        <legend class="legend">Cadastro Login:</legend>
+        <label class="label required" for="nome">Nome:</label>
+        <input class="input" type="text" name="txtnome" id="name" placeholder="Nome Completo" required>
+        <br>
+        <label class="label" for="apelido">Apelido:</label>
+        <input class="input" type="text" name="txtapelido" id="adress">
+        <br>
+        <label class="required label" for="e-mail">E-mail:</label>
+        <input class="input" type="text" name="txtemail" id="email" placeholder="nome@email.com" required>
+        <br>
+        <label class="required label" for="senha">Senha:</label>
+        <input class="input" type="password" name="senha" id="password" required>
+        <br>
+        <label class="required label" for="repetir senha">Repetir Senha:</label>
+        <input class="input" type="password" name="repetir senha" id="reppassword" required>
+        <br>
+        <input class="button" id="send" type="submit" name="envia" value="Enviar">&nbsp;
+        <input class="button" id="clear" type="reset" name="apaga" value="Limpar">
+      </fieldset>
+    </form>
+  </section>
+</body>
+</html>
